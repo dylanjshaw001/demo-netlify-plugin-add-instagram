@@ -19,7 +19,6 @@
     "netlify-plugin-add-instagram": "^0.2.5"
   },
   "devDependencies": {
-    "netlify": "^10.1.0",
-    "netlify-cli": "^8.4.2"
+    "netlify": "^10.1.0"
   }
 }
