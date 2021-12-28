@@ -22,7 +22,7 @@ layout: layouts/base.njk
   {%- for item in instagram  -%}
     <div>
       <a href="{{ item.instagramURL }}" title="{{ item.caption }}" target="_BLANK" rel="noopener">
-        <img src="../src/images/instagram/{{ item.id }}.jpeg" alt="{{ item.caption }}" title="→ {{ item.caption }}" loading="lazy">
+        <img src="images/instagram/{{ item.id }}_m.jpeg" alt="{{ item.caption }}" title="→ {{ item.caption }}" loading="lazy">
       </a>
     </div>
   {%- endfor -%}
