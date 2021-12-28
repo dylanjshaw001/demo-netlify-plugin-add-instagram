@@ -3,8 +3,8 @@
 
 # build artefacts
 /dist
-/src/images/instagram/*.jpeg
-/src/_data/instagram.json
+# /src/images/instagram/*.jpeg
+# /src/_data/instagram.json
 
 # Local Netlify folder
 .netlify
