@@ -2,7 +2,7 @@
 /node_modules
 
 # build artefacts
-/dist
+# /dist
 # /src/images/instagram/*.jpeg
 # /src/_data/instagram.json
 

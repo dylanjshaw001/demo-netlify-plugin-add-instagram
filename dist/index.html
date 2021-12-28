@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Netlify Plugin Demo: add-instagram</title>
+  </head>
+  <body>
+    <div class="tint">
+      <header>
+        <h1>Netlify Plugin Demo: add-instagram</h1>
+        <p class="subtitle">Fetch and cache data from resources ready for a static site generator to use</p>
+      </header>
+    </div>
+    <main>
+    
+<section>
+  <p>
+  This site demonstrates <a href="https://github.com/philhawksworth/netlify-plugin-add-instagram">netlify-plugin-add-instagram</a>, a <a href="https://docs.netlify.com/configure-builds/build-plugins/?utm_source=github&amp;utm_medium=plugin-addinstagram-pnh&amp;utm_campaign=devex">Build plugin</a> for <a href="https://netlify.com?utm_source=github&amp;utm_medium=plugin-addinstagram-pnh&amp;utm_campaign=devex">Netlify</a>. The code for this site in available in on <a href="https://github.com/philhawksworth/demo-netlify-plugin-add-instagram">GitHub</a>.
+  </p>
+  <p>
+    When this site is builds, the build plugin requests (and caches for future builds) data and image assets from Instagram. those images can then be served as part of this site. Subsequent build get available image assets from the build cache.
+  </p>
+</section>
+
+<section>
+  <h2>Recent Instagram posts</h2>
+  <p>
+    Sourced from <a href="https://instagram.com/philhawksworth" target="_BLANK" rel="noopener">Phil's Instagram</a>, but serve from the <a href="https://netlify.com/products/edge?utm_source=github&amp;utm_medium=plugin-addinstagram-pnh&amp;utm_campaign=devex">Netlify CDN</a> along with this site.
+  </p>
+  <div class="thumbnails"><div>
+      <a href="https://www.instagram.com/p/CGtEbDFh9-t" title="This one. ❤️" target="_BLANK" rel="noopener">
+        <img src="/images/instagram/CGtEbDFh9-t.jpeg" alt="This one. ❤️" title="→ This one. ❤️" loading="lazy">
+      </a>
+    </div><div>
+      <a href="https://www.instagram.com/p/CGtDqnChazF" title="Cornwall, you bobby dazzler." target="_BLANK" rel="noopener">
+        <img src="/images/instagram/CGtDqnChazF.jpeg" alt="Cornwall, you bobby dazzler." title="→ Cornwall, you bobby dazzler." loading="lazy">
+      </a>
+    </div><div>
+      <a href="https://www.instagram.com/p/CGej1dvAPYq" title="Early morning in our happy place" target="_BLANK" rel="noopener">
+        <img src="/images/instagram/CGej1dvAPYq.jpeg" alt="Early morning in our happy place" title="→ Early morning in our happy place" loading="lazy">
+      </a>
+    </div><div>
+      <a href="https://www.instagram.com/p/CGUWlMxAAl2" title="Progress." target="_BLANK" rel="noopener">
+        <img src="/images/instagram/CGUWlMxAAl2.jpeg" alt="Progress." title="→ Progress." loading="lazy">
+      </a>
+    </div><div>
+      <a href="https://www.instagram.com/p/CFDLAfMBq1z" title="Looming" target="_BLANK" rel="noopener">
+        <img src="/images/instagram/CFDLAfMBq1z.jpeg" alt="Looming" title="→ Looming" loading="lazy">
+      </a>
+    </div><div>
+      <a href="https://www.instagram.com/p/CE8zHzQA9b1" title="Productivity buffer" target="_BLANK" rel="noopener">
+        <img src="/images/instagram/CE8zHzQA9b1.jpeg" alt="Productivity buffer" title="→ Productivity buffer" loading="lazy">
+      </a>
+    </div><div>
+      <a href="https://www.instagram.com/p/CEdt9YagkmP" title="WIP. 
+A new place to cook.
+And a new place to work." target="_BLANK" rel="noopener">
+        <img src="/images/instagram/CEdt9YagkmP.jpeg" alt="WIP. 
+A new place to cook.
+And a new place to work." title="→ WIP. 
+A new place to cook.
+And a new place to work." loading="lazy">
+      </a>
+    </div><div>
+      <a href="https://www.instagram.com/p/CD57csuAci9" title="Site supervisor" target="_BLANK" rel="noopener">
+        <img src="/images/instagram/CD57csuAci9.jpeg" alt="Site supervisor" title="→ Site supervisor" loading="lazy">
+      </a>
+    </div><div>
+      <a href="https://www.instagram.com/p/B9li_MEgFrq" title="Cheeky overhang" target="_BLANK" rel="noopener">
+        <img src="/images/instagram/B9li_MEgFrq.jpeg" alt="Cheeky overhang" title="→ Cheeky overhang" loading="lazy">
+      </a>
+    </div><div>
+      <a href="https://www.instagram.com/p/B9XI7WqBoMV" title="Yes I know, but I’m gonna need you to open it for me." target="_BLANK" rel="noopener">
+        <img src="/images/instagram/B9XI7WqBoMV.jpeg" alt="Yes I know, but I’m gonna need you to open it for me." title="→ Yes I know, but I’m gonna need you to open it for me." loading="lazy">
+      </a>
+    </div><div>
+      <a href="https://www.instagram.com/p/B86fwYfg-LJ" title="Birthday treats." target="_BLANK" rel="noopener">
+        <img src="/images/instagram/B86fwYfg-LJ.jpeg" alt="Birthday treats." title="→ Birthday treats." loading="lazy">
+      </a>
+    </div><div>
+      <a href="https://www.instagram.com/p/B6WENBYAv6g" title="Shuttlecocks" target="_BLANK" rel="noopener">
+        <img src="/images/instagram/B6WENBYAv6g.jpeg" alt="Shuttlecocks" title="→ Shuttlecocks" loading="lazy">
+      </a>
+    </div></div>
+</section>
+
+<section>
+  <h2>Quick try-out</h2>
+  <p>
+    To quickly experiment with this plugin, you can click the button below. Clicking the button will clone <a href="https://github.com/philhawksworth/demo-netlify-plugin-add-instagram">this test site repo</a>, setup a new site <a href="https://netlify.com?utm_source=github&amp;utm_medium=plugin-addinstagram-pnh&amp;utm_campaign=devex">on Netlify</a> and deploy the site complete with the plugin configured and operational.
+  </p>
+  <p>
+    <a href="https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/demo-netlify-plugin-add-instagram&utm_source=github&amp;utm_medium=plugin-addinstagram-pnh&amp;utm_campaign=devex"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+  </p>
+</section>
+
+    </main>
+    <footer>
+      Made with <img class="netliheart" title="love" src="/images/netliheart.svg" alt="love" width="1em"> by the <a href="https://netlify.com?utm_source=github&amp;utm_medium=plugin-addinstagram-pnh&amp;utm_campaign=devex">Netlify</a> team. Explore the code in <a href="https://github.com/philhawksworth/demo-netlify-plugin-add-instagram">GitHub</a>.
+    </footer>
+  </body>
+</html>
