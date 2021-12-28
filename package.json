@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "eleventy --serve",
+    "netlify": "netlify",
     "build": "eleventy"
   },
   "repository": {
@@ -16,5 +17,9 @@
     "@11ty/eleventy": "^0.10.0",
     "dot-env": "0.0.1",
     "netlify-plugin-add-instagram": "^0.2.5"
+  },
+  "devDependencies": {
+    "netlify": "^10.1.0",
+    "netlify-cli": "^8.4.2"
   }
 }
